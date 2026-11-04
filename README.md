@@ -43,8 +43,8 @@ link or saved collection --> gallery-dl --> Gemini (watches the reel / reads the
   it falls back to caption + cover frame, so a row is still written.
 - **Carousels** are read slide by slide.
 - Scoring follows [`rubric.md`](rubric.md): hook, structure and pacing, 1 to 5 each, plus a
-  Use/Skip verdict and one concrete way to reuse the borrowed shape. The rule is *steal the shape,
-  not the subject*. The rubric is a plain file; edit it to fit your niche (or set `SWIPE_NICHE`).
+  Use/Skip verdict and one concrete way to reuse the borrowed format. The rule is *borrow the
+  format, keep your own topic*. The rubric is a plain file; edit it to fit your niche (or set `SWIPE_NICHE`).
 - **Saved-collection sweep:** save posts into one dedicated collection while you scroll; run
   `npm run sweep` now and then and every new save is analysed. A first run against a big collection
   only marks everything as already seen, so it never bills hundreds of Gemini calls.

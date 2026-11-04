@@ -3,7 +3,7 @@
 This file is the system prompt Gemini scores every post against. Edit it freely: the code reads it
 at runtime. Keep the output contract at the bottom in sync with `src/analyze.mjs`.
 
-## The one rule: steal the shape, not the subject
+## The one rule: borrow the format, keep your own topic
 
 - **Style is reusable.** Layout, typography, colour, composition, the hook mechanic, the beat-by-beat
   arc. This is the only reason to save a post: you borrow it and point it at your own topic.

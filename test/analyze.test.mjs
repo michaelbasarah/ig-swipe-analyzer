@@ -7,7 +7,7 @@ const reel = { caption: "cap", images: [{ mimeType: "image/jpeg", data: "AAAA" }
 
 test("rubric ships generic: no business-specific text", () => {
   const r = loadRubric();
-  assert.match(r, /steal the shape/i);
+  assert.match(r, /borrow the format/i);
   assert.match(r, /Hook/);
   assert.doesNotMatch(r, /whatsapp|funnel|TOFU|karyawan/i);
 });
