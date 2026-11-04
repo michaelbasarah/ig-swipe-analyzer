@@ -1,0 +1,22 @@
+{
+  "name": "ig-swipe-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Paste an Instagram post or reel link (or sweep your own saved collection); Gemini watches it, scores hook, structure and pacing, and the result lands as a row in your Google Sheet.",
+  "license": "MIT",
+  "engines": { "node": ">=20.12" },
+  "bin": { "ig-swipe": "src/cli.mjs" },
+  "scripts": {
+    "swipe": "node src/cli.mjs",
+    "sweep": "node src/cli.mjs sweep",
+    "discord": "node src/cli.mjs discord",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "discord.js": "^14.26.4"
+  }
+}
