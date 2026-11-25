@@ -7,3 +7,24 @@ node_modules/
 *.cookies
 cookies*
 *.log
+
+# Secrets: never commit
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials*.json
+service-account*.json
+token.json
+cookies*.txt
+# Local environments, caches and OS junk
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+~$*
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
